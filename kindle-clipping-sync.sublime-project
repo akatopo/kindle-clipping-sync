@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "follow_symlinks": true,
+      "folder_exclude_patterns": [
+        "node_modules",
+        "lib"
+      ],
+      "path": "."
+    }
+  ],
+  "settings": {
+    "tab_size": 2,
+    "todoreview": {
+      "exclude_folders": [
+        "*node_modules*",
+        "*lib*"
+      ]
+    }
+  }
+}

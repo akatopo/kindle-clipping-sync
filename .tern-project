@@ -1,0 +1,16 @@
+{
+  "dontLoad": [
+    "node_modules/ramda/**/*.js"
+  ],
+  "plugins": {
+    "node": {},
+    "modules": {},
+    "es_modules": {},
+    "doc_comment": {
+      "fullDocs": true
+    }
+  },
+  "libs": [
+    "ramda"
+  ]
+}
