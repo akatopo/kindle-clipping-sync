@@ -1,4 +1,4 @@
-# <img src="icon.svg" alt="app logo" width="40" height="40" style="vertical-align:middle"> kindle-clipping-sync
+# <img src="https://cdn.rawgit.com/akatopo/kindle-clipping-sync/master/icon.svg" alt="app logo" width="40" height="40" style="vertical-align:middle"> kindle-clipping-sync
 
 Checks for a kindle mount event and commits clippings to a git repository. Tested on a Kindle 3 (keyboard). Works on Linux.
 
