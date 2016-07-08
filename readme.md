@@ -4,6 +4,11 @@ Checks for a kindle mount event and commits clippings to a git repository. Teste
 
 <img src="screenshot.png" alt="app screenshot" width="322" height="105">
 
+## Installation
+
+```
+$ npm install -g kindle-clipping-sync
+```
 
 ## Usage
 
@@ -22,4 +27,5 @@ Requires
 * gulp
 
 To install dependencies run `npm install`
+
 To build run `gulp build`, the app will be in the `lib/` folder

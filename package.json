@@ -1,13 +1,25 @@
 {
   "name": "kindle-clipping-sync",
+  "author": "Alex Katopodis <akatopo@users.noreply.github.com>",
   "version": "1.0.0",
-  "description": "",
-  "bin": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "description": "Checks for a kindle mount event and commits clippings to a git repository",
   "license": "ISC",
+  "keywords": [
+    "kindle",
+    "clippings"
+  ],
+  "bin": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akatopo/kindle-clipping-sync"
+  },
+    "bugs": {
+    "url": "https://github.com/akatopo/kindle-clipping-sync/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp build"
+  },
   "devDependencies": {
     "babel-core": "^6.6.4",
     "babel-eslint": "^6.0.0-beta.5",
@@ -41,5 +53,5 @@
   "os": [
     "linux"
   ],
-  "private": true
+  "preferGlobal": true
 }
