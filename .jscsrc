@@ -1,7 +1,6 @@
 {
   "preset": "crockford", // https://github.com/jscs-dev/node-jscs/blob/master/presets/crockford.json
 
-  "esnext": true,
   "requireSpacesInAnonymousFunctionExpression": {
     "beforeOpeningRoundBrace": true,
     "beforeOpeningCurlyBrace": true,
