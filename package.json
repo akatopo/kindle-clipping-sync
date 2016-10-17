@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/akatopo/kindle-clipping-sync"
   },
-    "bugs": {
+  "bugs": {
     "url": "https://github.com/akatopo/kindle-clipping-sync/issues"
   },
   "scripts": {

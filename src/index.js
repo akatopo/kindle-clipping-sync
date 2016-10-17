@@ -47,12 +47,9 @@ const getUdisksInterface = promisify(udisksService.getInterface)
     const udisksInterfacesAdded = Rx.Observable.fromEvent(
       objectManager,
       'InterfacesAdded',
-      // eslint-disable-next-line arrow-body-style
-      (objectPath, interfaceMap) => {
-        return { objectPath, interfaceMap };
-      }
+      (objectPath, interfaceMap) => ({ objectPath, interfaceMap })
     );
-    const subscription = udisksInterfacesAdded
+    /*const subscription = */udisksInterfacesAdded
       .filter(eventObjectPathIsUdiskJob)
       .filter(jobIsFsMount)
       .flatMap(createFsMountObservable)
