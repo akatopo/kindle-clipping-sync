@@ -10,6 +10,8 @@ Checks for a kindle mount event and commits clippings to a git repository. Teste
 $ npm install -g kindle-clipping-sync
 ```
 
+:warning: For ubuntu 16.04, if you're getting an error when trying to install nodegit that looks like this: `configure: error: cannot find OpenSSL or Libgcrypt, try --with-libssl-prefix=PATH or --with-libgcrypt-prefix=PATH`, install libssl-dev (`sudo apt install libssl-dev`). [Relevant nodegit issue](https://github.com/nodegit/nodegit/issues/728#issuecomment-247030632) 
+
 ## Usage
 
 ```
