@@ -1,10 +1,7 @@
 {
+  "extends": ["airbnb", "prettier"],
   "parser": "babel-eslint",
   "rules": {
-    "brace-style": 0,
-    "no-use-before-define": [2, "nofunc"],
-    "spaced-comment": 0,
-    "no-console": 0
-  },
-  "extends": "airbnb/base"
+    "no-use-before-define": ["error", { "functions": false }]
+  }
 }
